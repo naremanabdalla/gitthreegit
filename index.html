@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="stylee.css" />
+  </head>
+  <body>
+    <div class="video">
+      <video src="video/frozen.mp4" poster="image/frozen.jpg"></video>
+      <input type="range" id="input" value="0" />
+      <span id="value"></span>
+      <span id="">/</span>
+      <span id="durationvalue"></span>
+    </div>
+    <div class="btns">
+      <button id="play">play</button>
+      <button id="stop">stop</button>
+      <button id="lowSpeed"><<</button>
+      <button id="backSec"><</button>
+      <button id="forwardSec">></button>
+      <button id="heightSpeed">>></button>
+      <input type="range" id="VoiceInput" min="0" max="1" step="0.1" />
+      <button id="mute">mute</button>
+      <div>
+        <p class="speed">speed</p>
+        <input type="range" id="speedInput" value="0" />
+      </div>
+    </div>
+
+    <hr />
+    <hr />
+    <hr />
+    <label>red</label>
+    <input id="red" type="range" min="0" max="255" value="0" />
+    <label>green</label>
+    <input id="green" type="range" min="0" max="255" value="0" />
+    <label>blue</label>
+    <input id="blue" type="range" min="0" max="255" value="0" />
+    <h1 id="head">
+      Change the 3Color Ranges above and observe my color Change
+    </h1>
+    <script src="script.js"></script>
+  </body>
+</html>

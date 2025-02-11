@@ -1,0 +1,17 @@
+.video {
+  width: 60%;
+  margin: auto;
+}
+video {
+  width: 100%;
+}
+#input {
+  width: 80%;
+}
+.btns {
+  width: 60%;
+  margin: auto;
+}
+.speed {
+  display: inline;
+}
